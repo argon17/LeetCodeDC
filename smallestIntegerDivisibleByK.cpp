@@ -17,7 +17,7 @@ public:
     }
 };
 
-// O(1) space
+// O(1) space, O(K) time
 
 class Solution {
 public:
