@@ -1,4 +1,4 @@
-// O(N!)    23/70 TC passed :(
+// BruteForce   O(N!)    23/70 TC passed :(
 class Solution {
 public:
     int maxCoins(vector<int>& a) {
@@ -20,7 +20,7 @@ public:
     }
 };
 
-// 70/70 test case passed
+//  O(N^2) 70/70 test case passed
 
 class Solution {
 public:
