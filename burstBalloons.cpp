@@ -28,7 +28,7 @@ public:
         int n = nums.size();
         memo.resize(n + 1, vector<int>(n + 1, -1));
         nums.insert(begin(nums), 1);
-        nums.push_back(1);
+        nums.insert(end(nums), 1);
         return burstRange(nums, 1, n);
     }
 private:
