@@ -18,7 +18,7 @@ public:
     int getRandom() {
         int ans;
         ListNode* cur = head;
-        for(int len = 1; cur; cur = cur -> next, ++len)
+        for(int len = 1; cur != nullptr; cur = cur -> next, ++len)
             // P(choosing current node) = P(choosing 0 out of [0, 1, ...(len - 1)]) = 1/len
             if(rand() % len == 0) 
                 ans = cur -> val;
