@@ -30,6 +30,11 @@ private:
     }    
 };
 
+
+
+// Maintaining a monotonically increasing stack, we always know left NSI.
+// Calculating area at just decreased index, we always know right NSI.
+// Pushing 0 to make sure every possibility of heights are explored.
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
