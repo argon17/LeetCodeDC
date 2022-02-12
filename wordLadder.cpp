@@ -1,3 +1,4 @@
+// 50/50 TC passes but too slow :(
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
